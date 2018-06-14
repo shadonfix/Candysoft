@@ -1,0 +1,79 @@
+.Titulo{
+    color: #666666  
+}
+
+.bg-active{
+    background-color: #F5F5F5;
+}
+
+.parrafo{
+    color: #999999;
+    font-size: 16px;
+}
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1%;
+}
+
+.site-wrapper-inner{
+    padding: 20px;
+}
+
+
+.aHeader{
+    color: white;
+}
+
+.aHeader:hover{
+    color: whitesmoke;
+}
+
+.contenedorBlanco{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 1%;
+    margin-top: 25px;
+}
+
+.h4Periodo{
+    color: #0072C6;
+}
+
+
+#inasistenciasWrapper{
+    position: relative;
+}
+
+.aviso-contrasena{
+    margin-top: 20px;
+}
+.alert-login{
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto 0 auto; 
+    width:40%; 
+}
+
+.error{
+}
+.error .alert{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.regresarInicio{
+    font-size: 22px;
+    color: white;
+}
+.regresarInicio a{
+    color: #ddd
+}
