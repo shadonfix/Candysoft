@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./Candysoft/bootstrap.css">        
+<link rel="stylesheet" type="text/css" href="./Candysoft/ihover.css">
+<link rel="stylesheet" type="text/css" href="./Candysoft/general.css">
+<link rel="stylesheet" type="text/css" href="./Candysoft/footer.css">
+<link rel="stylesheet" type="text/css" href="./Candysoft/cover.css">
+<link rel="stylesheet" type="text/css" href="./Candysoft/login.css">
+<link rel="shortcut icon" href="./Candysoft/logo.png">
+<link rel="stylesheet" href="./Candysoft/jquery.fancybox.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./Candysoft/jquery.fancybox-buttons.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./Candysoft/jquery.fancybox-thumbs.css" type="text/css" media="screen">
 
+<script src="./Candysoft/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="./Candysoft/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="./Candysoft/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="./Candysoft/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="./Candysoft/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="./Candysoft/jquery.fancybox-thumbs.js"></script>
+        <title>Candysoft</title>
+        <script>
+            $(document).ready(function () {
+                $(".fancybox-thumb").fancybox({
+                    maxWidth: 600,
+                    maxHeight: 600,
+                    fitToView: false,
+                    width: '600px',
+                    height: '600px',
+                    closeClick: true,
+                    openEffect: 'none',
+                    closeEffect: 'none'
+                });
+            });
+        </script>
+    <style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+
+    <body background="Candysoft/Candy_in_Damascus.jpg">
+        <div class="site-wrapper">
+            <div class="container centrado">
+                <div id="Cabezal" class="center">
+                        <img id="Logo" style="width: 27%;" src="./Candysoft/logo.png"></a>
+                    <h4 id="h2Cabezal" style="color: white">Candysoft</h4>
+                </div>
+                <br>
+                <form method="post" action="CandySoft/v.php" class="center">
+                    <div>
+                        <input class="form-control-login input-login" required="true" type="text" name="documento" placeholder="Email" autocomplete="off">                        
+                        <input class="form-control-login input-password" type="password" name="contrasenia" placeholder="Password">                       
+                    </div>
+                    
+
+                    <br>
+                    <div>
+                        <input class="btn btn-lg btn-primary" style="width: 70%" type="submit" value="Log in">
+                    </div>
+                </form>
+                <br> 
+            </div>
+        </div>
+    
+</body></html>
